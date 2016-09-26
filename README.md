@@ -75,6 +75,7 @@ Represent domain factors beyond individual users and customers
 2. environments
 
 3. artifacts
+
 # II. Synthesis
 ## 1. Requirements Definition
 ### a. Context Scenarios
