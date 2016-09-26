@@ -52,21 +52,35 @@ Find various aspect of audience/customer
 
 ## 2. Modeling
 ### a. Personas
-user and customer archetypes
+Kimy G is a art currator for a visual art gallery. He awares that the audiences of the gallery find the musics playing at the background in the gallery do not suit the feeling of the visual art piece.
 
-1. **goals**
+#### Goal
+To play specific background music designed particularly for each visual art piece.
 
-2. Patterns in user and customer behaviors
+#### Patterns in user and customer behaviors
+Mediums of exhibiting artworks:
+Colored Photography
+B&W Photography
+Painting
+Drawings
+Others
 
-3. attitudes
+#### Attitudes
+He believes that background music strongly contributes to the enjoyment of visual art pieces.
+He does not have the resources to have a human composer to compose music for each of the pieces.
 
-4. aptitudes
+#### Aptitudes
+He can photograph a visual art piece and digitize it.
+He can use a computer.
+He can use simple computer programs.
 
-5. environments
+#### Environments
+He works in a visual art gallery. The gallery contains artwork of different genre of visual artwork from different era.
 
-6. tools
+#### Tools
+Computer, digital camera, speaker.
 
-7. challenges
+#### Challenges
 
 ### b. Other Models
 Represent domain factors beyond individual users and customers
