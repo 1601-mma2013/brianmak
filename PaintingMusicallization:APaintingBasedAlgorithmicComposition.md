@@ -27,29 +27,6 @@ Computer technology is used to enhance the audience overall experience especiall
 curation of the gallery with the artwork carefully arranged in a spacious exhibiting space. Generative melody using computer technology involves algorithm that forms the melody based on the digital copy of the existing painting and thus added a modality for a traditional painting to express as an new media art. Therefore, the curation of the art gallery is embedded with the generative melody and even the visually impaired audiences are able to appreciate the paintings.
 This also allows the visually impaired to appreciate visual art through the generated music. The prototype artwork is built on a generic algorithm that can recompose a melody for any paintings.
 
-### d. User observations
-Understand user needs and behavior and describe it.
-Find various aspect of audience/customer
- 
-1. Users
-
-2. potential users
-
-3. (user’s) behaviors
-
-4. (user’s) attitudes
-
-5. (user’s) aptitudes
-	- users’s ability to learn something quickly and do it well
-
-6. (user’s) motivations
-
-7. (user’s) environments
-
-8. (user’s) tools
-
-9. (user’s) challenges
-
 ## 2. Modeling
 ### a. Personas
 Kimy G is a art currator for a visual art gallery. He awares that the audiences of the gallery find the musics playing at the background in the gallery do not suit the feeling of the visual art piece.
@@ -81,14 +58,8 @@ He works in a visual art gallery. The gallery contains artwork of different genr
 Computer, digital camera, speaker.
 
 #### Challenges
-
-### b. Other Models
-Represent domain factors beyond individual users and customers
-1. Workflows among multiple people
-
-2. environments
-
-3. artifacts
+Various image processing techniques including sectioning images into quadrants, image chroma analysis and image value analysis.
+Multiple music composition theories, rules and techniques.
 
 # II. Synthesis
 ## 1. Requirements Definition
