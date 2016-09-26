@@ -83,21 +83,27 @@ Multiple music composition theories, rules and techniques.
 ## 2. Design Framework
 ### System Design Overview
 This algorithmic composition system synthesizes a melodic music in the Western music scale based on the composition of the painting. It is a translational model that produces musical piece by translating pixels information from digitized paintings. It cuts the digitized painting into multiple small quadrants to be analyzed and compared on colors and light intensity. Raster scan technique is used to scan through each quadrant while analysing the colors and light intensity of each group. The result of the color analysis is then used to determine the chord and scale of the following bar, major or minor. The chord is then played in the background as harmony. The system then maps the light intensities of the quadrants into a pentatonic scale of the determined chord creating a soothing melody. (Figure 1)
+
 [![Screen_Shot_2016_09_26_at_11_53_23_PM.png](http://postimg.org/image/llfefq6s5/)](http://s18.postimg.org/llfefq6s5/Screen_Shot_2016_09_26_at_11_53_23_PM.png)
+
 #### Cutting and grouping
 Digital images usually populates nearby pixels with similar color and intensity. Thus making playing every pixel redundant. The strategy of grouping the pixels into small quadrants (Figure 2) and analyzing the pixels within the quadrants allows the system to play each quadrant as a note while avoiding redundancy. 
+
 [![Screen_Shot_2016_09_26_at_11_53_31_PM.png](http://postimg.org/image/t2t78olp1/)](http://s18.postimg.org/t2t78olp1/Screen_Shot_2016_09_26_at_11_53_31_PM.png)
+
 #### Scanning of quadrants
 Raster scanning technique (Figure 2) is applied on scanning each quadrant as it can efficiently converts the paintings into music without losing the intended composition made by the painter. Each horizontal scan line is translated into a passage of the music containing 4 or 8 bars while the whole painting is translated into a whole musical piece containing multiple passages depending on the height to width ratio of the painting. This approach allows the system to convert the horizontal visual composition of a painting into musical compositions of passages of the music while converting the vertical visual composition of the painting into the whole arrangement or composition of the entire pieces. 
+
 #### Chroma analysis and chord progression
 The average color of the pixels in each quadrant is analyzed to determine if it is a warm or cool color based on general color theories (Figure 3). Warm colors is then mapped to a major musical scale while cool colors is mapped to a minor musical scale. The reason behind this is that warm colors give similar psychological and emotional effects as a major musical scale and vise versa. This helps the system to more accurately translate the composition of the paintings into music on an emotional level. A I, IV or V chord is selected for a warm quadrant while ii, iii or vi chord is selected for a cool quadrant based on the intensity of the quadrant.
+
 [![Screen_Shot_2016_09_26_at_11_53_35_PM.png](http://postimg.org/image/3y26v9m8l/)](http://s18.postimg.org/3y26v9m8l/Screen_Shot_2016_09_26_at_11_53_35_PM.png)
+
 #### Color mapping
 Intensity or value of the colors in each quadrant is mapped onto a scale of the chord determined from chroma analysis. A quadrant with high light intensity is mapped to a high pitch note while a quadrant with low light intensity is mapped to a low pitch value within the determined scale following a set of musical linguistic rules. This approach allows the generated music to maintain the range high and low notes similar to the range of bright and dark color used by the painter. 
+
 ####Post-processing
 A few enhancements are applied to the generated raw music to mimic a human-composed melody. Multiple linguistic and structural rules are deployed to produce structural coherence in the musical pieces. All the downbeats (first beats of every bars) and the third beats are accented while the subdivisions (eighth and sixteenth notes) are softened. Notes that are not downbeats nor the third beats might be excluded or soften if the current note is same as the previous note or the current quadrant has a very low light intensity. Musical dynamics (loudness) and sustains (echo) is also introduced accordingly to produce a full sounding piece of music.
-2. Key path Scenario
-
 
 
 #References
