@@ -95,7 +95,7 @@ Raster scanning technique (Figure 2) is applied on scanning each quadrant as it 
 #### Chroma analysis and chord progression
 The average color of the pixels in each quadrant is analyzed to determine if it is a warm or cool color based on general color theories (Figure 3). Warm colors is then mapped to a major musical scale while cool colors is mapped to a minor musical scale. The reason behind this is that warm colors give similar psychological and emotional effects as a major musical scale and vise versa. This helps the system to more accurately translate the composition of the paintings into music on an emotional level. A I, IV or V chord is selected for a warm quadrant while ii, iii or vi chord is selected for a cool quadrant based on the intensity of the quadrant.
 
-![Screen_Shot_2016_09_26_at_11_53_35_PM](http://s18.postimg.org/3y26v9m8l/Screen_Shot_2016_09_26_at_11_53_35_PM.png)
+![06](http://s18.postimg.org/ct315sb15/Screen_Shot_2016_09_26_at_11_53_35_PM.png)
 
 #### Color mapping
 Intensity or value of the colors in each quadrant is mapped onto a scale of the chord determined from chroma analysis. A quadrant with high light intensity is mapped to a high pitch note while a quadrant with low light intensity is mapped to a low pitch value within the determined scale following a set of musical linguistic rules. This approach allows the generated music to maintain the range high and low notes similar to the range of bright and dark color used by the painter. 
