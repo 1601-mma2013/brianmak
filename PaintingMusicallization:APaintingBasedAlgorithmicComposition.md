@@ -35,6 +35,14 @@ Computer technology is used to enhance the audience overall experience especiall
 curation of the gallery with the artwork carefully arranged in a spacious exhibiting space. Generative melody using computer technology involves algorithm that forms the melody based on the digital copy of the existing painting and thus added a modality for a traditional painting to express as an new media art. Therefore, the curation of the art gallery is embedded with the generative melody and even the visually impaired audiences are able to appreciate the paintings.
 This also allows the visually impaired to appreciate visual art through the generated music. The prototype artwork is built on a generic algorithm that can recompose a melody for any paintings.
 
+### d. User Observations
+
+[![Screen_Shot_2016_09_28_at_12_07_40_AM.png](https://s13.postimg.org/68h6nge1f/Screen_Shot_2016_09_28_at_12_07_40_AM.png)](https://postimg.org/image/68h6nge1f/)
+
+[![Screen_Shot_2016_09_28_at_12_07_58_AM.png](https://s13.postimg.org/fhjcxkmxf/Screen_Shot_2016_09_28_at_12_07_58_AM.png)](https://postimg.org/image/fhjcxkmxf/)
+
+[![Screen_Shot_2016_09_28_at_12_10_06_AM.png](https://s13.postimg.org/k4pezcaab/Screen_Shot_2016_09_28_at_12_10_06_AM.png)](https://postimg.org/image/k4pezcaab/)
+
 ## 2. Modeling
 ### a. Personas
 Kimy G is a visual art collector who also loves visiting visual art galeries.
